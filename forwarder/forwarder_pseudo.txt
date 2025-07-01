@@ -1,0 +1,9 @@
+FOR every second
+   read item from Reporter
+
+
+   parse item
+   transform item to event
+
+   write event to Kafka
+ENDFOR

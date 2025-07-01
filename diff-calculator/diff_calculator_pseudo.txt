@@ -1,0 +1,8 @@
+FOR each event
+   read existing item from MySQL
+
+   calculate diff
+   update item in MySQL
+
+   write diff to Kafka
+ENDFOR
