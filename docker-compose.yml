@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   reporter:
-    image: ghcr.io/justtrackio/backendtest-reporter:latest
+    image: vladovsiychuk/demo-reporter:latest
     ports:
       - '8030:8080'
 
