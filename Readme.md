@@ -17,6 +17,10 @@ make tidy
 ```
 This will run `go mod tidy` in both the `forwarder` and `diff-calculator` folders.
 
+## Testing Utilities
+
+An example of how to mock the Ticker interface for deterministic testing can be found in [`forwarder/test/forwarder_loop_test.go`](forwarder/test/forwarder_loop_test.go).
+
 ## Running the Services
 Use the provided Makefile for all main commands.
 - Run the Forwarder:
