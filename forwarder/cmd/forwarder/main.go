@@ -38,7 +38,7 @@ func main() {
 		Partners: partners,
 		Reporter: reporterClient,
 		Producer: kafkaProducer,
-		Interval: time.Second,
+		Ticker:   app.NewRealTicker(time.Second),
 	}
 
 	var wg sync.WaitGroup

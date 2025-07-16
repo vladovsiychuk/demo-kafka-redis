@@ -8,6 +8,10 @@ tidy:
 	make tidy-forwarder
 	make tidy-diff-calculator
 
+mocks:
+	(cd forwarder && mockery --all)
+	(cd diff-calculator && mockery --all)
+
 test-forwarder:
 	(cd forwarder && go test ./...)
 
