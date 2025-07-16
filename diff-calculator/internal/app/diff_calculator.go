@@ -4,10 +4,11 @@ import (
 	"context"
 	"time"
 
+	"github/vladovsiychuk/demo-kafkaredis-diff/internal/datastore"
+	"github/vladovsiychuk/demo-kafkaredis-diff/internal/diff"
+	"github/vladovsiychuk/demo-kafkaredis-diff/internal/kafka"
+
 	"github.com/sirupsen/logrus"
-	"justtrack.io/tests/backend/diff-calculator/internal/datastore"
-	"justtrack.io/tests/backend/diff-calculator/internal/diff"
-	"justtrack.io/tests/backend/diff-calculator/internal/kafka"
 )
 
 type DiffCalculator struct {

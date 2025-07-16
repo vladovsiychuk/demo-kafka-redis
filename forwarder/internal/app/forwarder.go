@@ -4,9 +4,10 @@ import (
 	"context"
 	"time"
 
+	"github/vladovsiychuk/demo-kafka-redis-forwarder/internal/kafka"
+	"github/vladovsiychuk/demo-kafka-redis-forwarder/internal/reporter"
+
 	"github.com/sirupsen/logrus"
-	"justtrack.io/tests/backend/forwarder/internal/kafka"
-	"justtrack.io/tests/backend/forwarder/internal/reporter"
 )
 
 type Forwarder struct {

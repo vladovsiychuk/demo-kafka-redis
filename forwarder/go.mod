@@ -1,4 +1,4 @@
-module justtrack.io/tests/backend/forwarder
+module github/vladovsiychuk/demo-kafka-redis-forwarder
 
 go 1.18
 

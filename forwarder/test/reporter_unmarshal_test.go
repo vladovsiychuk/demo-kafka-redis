@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"justtrack.io/tests/backend/forwarder/internal/reporter"
+	"github/vladovsiychuk/demo-kafka-redis-forwarder/internal/reporter"
 )
 
 func TestIntOrString_UnmarshalJSON(t *testing.T) {

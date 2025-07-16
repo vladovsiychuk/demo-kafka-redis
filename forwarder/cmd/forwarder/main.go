@@ -7,11 +7,12 @@ import (
 	"sync"
 	"time"
 
+	"github/vladovsiychuk/demo-kafka-redis-forwarder/internal/app"
+	"github/vladovsiychuk/demo-kafka-redis-forwarder/internal/kafka"
+	"github/vladovsiychuk/demo-kafka-redis-forwarder/internal/reporter"
+
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"
-	"justtrack.io/tests/backend/forwarder/internal/app"
-	"justtrack.io/tests/backend/forwarder/internal/kafka"
-	"justtrack.io/tests/backend/forwarder/internal/reporter"
 )
 
 const (

@@ -6,11 +6,12 @@ import (
 	"os/signal"
 	"sync"
 
+	"github/vladovsiychuk/demo-kafkaredis-diff/internal/app"
+	"github/vladovsiychuk/demo-kafkaredis-diff/internal/datastore"
+	"github/vladovsiychuk/demo-kafkaredis-diff/internal/kafka"
+
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"
-	"justtrack.io/tests/backend/diff-calculator/internal/app"
-	"justtrack.io/tests/backend/diff-calculator/internal/datastore"
-	"justtrack.io/tests/backend/diff-calculator/internal/kafka"
 )
 
 const (

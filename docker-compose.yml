@@ -22,7 +22,7 @@ services:
       - '3306:3306'
     environment:
       MYSQL_ROOT_USER: admin
-      MYSQL_ROOT_PASSWORD: justtrack
+      MYSQL_ROOT_PASSWORD: root
 
   redis:
     image: redis:8.0-alpine

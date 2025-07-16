@@ -3,7 +3,7 @@ package kafka
 import (
 	"time"
 
-	"justtrack.io/tests/backend/forwarder/internal/reporter"
+	"github/vladovsiychuk/demo-kafka-redis-forwarder/internal/reporter"
 )
 
 type Event struct {

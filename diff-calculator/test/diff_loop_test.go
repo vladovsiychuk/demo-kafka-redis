@@ -5,11 +5,12 @@ import (
 	"testing"
 	"time"
 
+	"github/vladovsiychuk/demo-kafkaredis-diff/internal/app"
+	"github/vladovsiychuk/demo-kafkaredis-diff/internal/datastore"
+	"github/vladovsiychuk/demo-kafkaredis-diff/internal/kafka"
+	"github/vladovsiychuk/demo-kafkaredis-diff/mocks"
+
 	"github.com/stretchr/testify/mock"
-	"justtrack.io/tests/backend/diff-calculator/internal/app"
-	"justtrack.io/tests/backend/diff-calculator/internal/datastore"
-	"justtrack.io/tests/backend/diff-calculator/internal/kafka"
-	"justtrack.io/tests/backend/diff-calculator/mocks"
 )
 
 // Arrange helpers for the test

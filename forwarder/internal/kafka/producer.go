@@ -6,8 +6,9 @@ import (
 	"fmt"
 	"time"
 
+	"github/vladovsiychuk/demo-kafka-redis-forwarder/internal/reporter"
+
 	"github.com/segmentio/kafka-go"
-	"justtrack.io/tests/backend/forwarder/internal/reporter"
 )
 
 type Producer interface {

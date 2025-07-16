@@ -1,11 +1,13 @@
-module justtrack.io/tests/backend/diff-calculator
+module github/vladovsiychuk/demo-kafkaredis-diff
 
-go 1.18
+go 1.23.0
+
+toolchain go1.24.5
 
 require (
 	github.com/segmentio/kafka-go v0.4.48
 	github.com/sirupsen/logrus v1.9.3
-	golang.org/x/sys v0.22.0
+	golang.org/x/sys v0.34.0
 )
 
 require (
@@ -18,8 +20,8 @@ require (
 )
 
 require (
-	github.com/klauspost/compress v1.15.9 // indirect
-	github.com/pierrec/lz4/v4 v4.1.15 // indirect
+	github.com/klauspost/compress v1.18.0 // indirect
+	github.com/pierrec/lz4/v4 v4.1.22 // indirect
 	github.com/redis/go-redis/v9 v9.11.0
 	github.com/stretchr/testify v1.10.0
 )

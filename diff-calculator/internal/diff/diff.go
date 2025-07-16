@@ -1,8 +1,8 @@
 package diff
 
 import (
-	"justtrack.io/tests/backend/diff-calculator/internal/datastore"
-	"justtrack.io/tests/backend/diff-calculator/internal/kafka"
+	"github/vladovsiychuk/demo-kafkaredis-diff/internal/datastore"
+	"github/vladovsiychuk/demo-kafkaredis-diff/internal/kafka"
 )
 
 // Calculate compares previous and current state, and returns FieldDiffs with only changed fields.

@@ -6,10 +6,11 @@ import (
 	"testing"
 	"time"
 
+	"github/vladovsiychuk/demo-kafka-redis-forwarder/internal/app"
+	"github/vladovsiychuk/demo-kafka-redis-forwarder/internal/reporter"
+	"github/vladovsiychuk/demo-kafka-redis-forwarder/mocks"
+
 	"github.com/stretchr/testify/mock"
-	"justtrack.io/tests/backend/forwarder/internal/app"
-	"justtrack.io/tests/backend/forwarder/internal/reporter"
-	"justtrack.io/tests/backend/forwarder/mocks"
 )
 
 func TestForwarder_Run_WithMockery(t *testing.T) {

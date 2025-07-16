@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	"justtrack.io/tests/backend/diff-calculator/internal/datastore"
-	"justtrack.io/tests/backend/diff-calculator/internal/diff"
+	"github/vladovsiychuk/demo-kafkaredis-diff/internal/datastore"
+	"github/vladovsiychuk/demo-kafkaredis-diff/internal/diff"
 )
 
 func TestCalculateDiff(t *testing.T) {
